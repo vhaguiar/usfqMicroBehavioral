@@ -8297,7 +8297,7 @@ Now generate a choice correspondence, that fails GARP.
 \begin_layout Chapter
 Consumer Theory: Utility Maximization.
  (Ch.
- 3 MWG).
+ 3).
 \end_layout
 
 \begin_layout Standard
@@ -8556,7 +8556,7 @@ If
 \begin_inset Formula $\succeq$
 \end_inset
 
- is a continuous rational (i.e., complete and transitive) preference on 
+ is a continuous rational preference on 
 \begin_inset Formula $X=\mathbb{R}_{+}^{L}$
 \end_inset
 
