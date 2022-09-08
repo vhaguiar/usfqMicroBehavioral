@@ -11771,7 +11771,32 @@ A dataset
 \end_inset
 
 ).
- 
+ (Equivalently, there no 
+\begin_inset Formula $t,s$
+\end_inset
+
+ such that 
+\begin_inset Formula $x^{t}Rx^{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $x^{s}P^{D}x^{t}$
+\end_inset
+
+ (
+\begin_inset Formula $x^{s}P^{D}x^{t}$
+\end_inset
+
+ means 
+\begin_inset Formula $x^{s}R^{D}x^{t}$
+\end_inset
+
+and 
+\begin_inset Formula $\lnot x^{t}R^{D}x^{s}$
+\end_inset
+
+.
+ )
 \end_layout
 
 \begin_layout Proposition
@@ -12595,7 +12620,7 @@ Experiments about Testing Rationality
 \begin_layout Standard
 (This material is presented in Quah
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 http://www.johnquah.com/uploads/7/5/6/7/75676677/survey-qutweb.pdf
