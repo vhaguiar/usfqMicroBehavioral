@@ -4089,7 +4089,7 @@ F_{\epsilon}(x)=exp(-exp(-\frac{x-\eta}{\mu}))=Pr(\epsilon\leq x)
 \begin_layout Standard
 \begin_inset Formula 
 \[
-P_{ij}=\frac{exp(V_{ij})}{\sum_{j'=0,\cdots,J}exp(V_{ij'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{ij}-V_{ij'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
+P_{ij}=\frac{exp(V_{j})}{\sum_{j'=0,\cdots,J}exp(V_{j'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{j}-V_{j'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
 \]
 
 \end_inset
@@ -4241,7 +4241,7 @@ Now the city transportation corporation introduced a Blue Bus
 \end_inset
 
 , but the IIA requires that 
-\begin_inset Formula $\frac{p_{W,3}}{p_{RB,3}}=1$
+\begin_inset Formula $\frac{p_{W,2}}{p_{RB,2}}=1$
 \end_inset
 
  is the same independently of the other alternatives.

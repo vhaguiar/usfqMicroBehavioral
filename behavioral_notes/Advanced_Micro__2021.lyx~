@@ -4089,7 +4089,7 @@ F_{\epsilon}(x)=exp(-exp(-\frac{x-\eta}{\mu}))=Pr(\epsilon\leq x)
 \begin_layout Standard
 \begin_inset Formula 
 \[
-P_{ij}=\frac{exp(V_{ij})}{\sum_{j'=0,\cdots,J}exp(V_{ij'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{ij}-V_{ij'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
+P_{ij}=\frac{exp(V_{j})}{\sum_{j'=0,\cdots,J}exp(V_{j'})}=\int_{\xi\in supp(\boldsymbol{\xi})}1(V_{j}-V_{j'}\geq\epsilon_{ij}-\epsilon_{ij'}\forall j\neq j')F_{\xi}(d\xi).
 \]
 
 \end_inset
@@ -8050,7 +8050,7 @@ Now let's agument the depth of this DFNN, so let's creat a first layer with
 \begin_layout Example
 \begin_inset Formula 
 \[
-h=f^{1}(x;W,c),
+h=f^{1}(x;W,c)=WX+c,
 \]
 
 \end_inset
@@ -8083,7 +8083,10 @@ y=f^{2}(h;w,b),
 \end_layout
 
 \begin_layout Example
-we need 
+\begin_inset Formula $f^{2}:\mathbb{R}^{2}\to\mathbb{R}_{+}$
+\end_inset
+
+ we need 
 \begin_inset Formula $h^{2}$
 \end_inset
 
@@ -8272,10 +8275,6 @@ this nonlienar transformation is key as it allows the outter linear model
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Example
 
 \end_layout
 
