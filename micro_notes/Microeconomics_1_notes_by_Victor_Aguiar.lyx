@@ -15282,7 +15282,11 @@ If the preference relation
 \end_inset
 
  satisfies the Independence Axiom and Mixture continuity then there is a
- linear function 
+ 
+\series bold
+linear function
+\series default
+ 
 \begin_inset Formula $U:\Delta(Z)\mapsto\mathbb{R}$
 \end_inset
 

@@ -13688,7 +13688,7 @@ Look for
 \end_inset
 
 : 
-\begin_inset Formula $p_{1}x_{1}(p^{s},\lambda^{s})+p_{2}x_{1}(p^{s},\lambda^{s})=w$
+\begin_inset Formula $p_{1}x_{1}(p^{s},\lambda^{s})+p_{2}x_{2}(p^{s},\lambda^{s})=w$
 \end_inset
 
 
@@ -13954,7 +13954,7 @@ Now,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $0=x_{l}^{r}+p\cdot\partial_{p_{l}}x^{r}m_{l}+p\cdot\partial_{w}c^{r}\partial_{p_{l}}w'$
+\begin_inset Formula $0=x_{l}^{r}+p\cdot\partial_{p_{l}}x^{r}m_{l}+p\cdot\partial_{w}x^{r}\partial_{p_{l}}w'$
 \end_inset
 
 .
