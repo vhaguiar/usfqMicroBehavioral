@@ -15765,6 +15765,42 @@ Now we characterize the model and propose a way to recover both revealed
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $Pr(\Gamma_{\gamma}(A)=S)=\prod_{c\in S}\gamma(c)\prod_{c'\in X\setminus S}(1-\gamma(c'))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A=\{a,b,c\}$
+\end_inset
+
+, 
+\begin_inset Formula $S_{1}=\{a\},S_{2}=\{b\},S_{3}=\{c\}$
+\end_inset
+
+, 
+\begin_inset Formula $S_{4}=\{a,b\},\cdots,S_{8}=\{a,b,c\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sum_{S\subseteq A}Pr(\Gamma_{\gamma}(A)=S)=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p(a,A)=\sum_{S\subseteq A}1(a=argmax_{x\in\Gamma_{\gamma}(A)}u(x))Pr(\Gamma_{\gamma}(A)=S)$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Definition
 We say 
 \begin_inset Formula $aRb$

@@ -16379,10 +16379,11 @@ Setup
 
 \begin_layout Standard
 with prior probabilities 
-\begin_inset Formula $\mu$
+\begin_inset Formula $\mu\in\Delta(\Omega)$
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
