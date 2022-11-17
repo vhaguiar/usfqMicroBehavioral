@@ -14274,7 +14274,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/pegasuspc/Documents/WesternAP/FirstYear/UndergraduateAdvancedMicro/notes/figures/exponential_disc_hyperbolic_disc_pass_rates.png
+	filename figures/exponential_vs_behavioral.png
+	lyxscale 70
 	scale 70
 
 \end_inset
@@ -14327,8 +14328,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../FirstYear/UndergraduateAdvancedMicro/notes/figures/AndreoniSpenglerJavainterface.png
-	scale 50
+	filename figures/Andreoni_Spengler_JAVA_interface.png
+	lyxscale 70
 
 \end_inset
 
@@ -16379,10 +16380,11 @@ Setup
 
 \begin_layout Standard
 with prior probabilities 
-\begin_inset Formula $\mu$
+\begin_inset Formula $\mu\in\Delta(\Omega)$
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Standard

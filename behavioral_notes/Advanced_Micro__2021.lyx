@@ -12788,7 +12788,7 @@ Introduction
 \begin_layout Standard
 Consider a consumer that faces a choice problem over consumption streams
  over time.
- Say that time is a finite set
+ Say that time is a finite set 
 \begin_inset Formula $\mathcal{T}=\{0,1,2,\cdots,T$
 \end_inset
 
@@ -14274,7 +14274,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/pegasuspc/Documents/WesternAP/FirstYear/UndergraduateAdvancedMicro/notes/figures/exponential_disc_hyperbolic_disc_pass_rates.png
+	filename figures/exponential_vs_behavioral.png
+	lyxscale 70
 	scale 70
 
 \end_inset
@@ -14327,8 +14328,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../FirstYear/UndergraduateAdvancedMicro/notes/figures/AndreoniSpenglerJavainterface.png
-	scale 50
+	filename figures/Andreoni_Spengler_JAVA_interface.png
+	lyxscale 70
 
 \end_inset
 

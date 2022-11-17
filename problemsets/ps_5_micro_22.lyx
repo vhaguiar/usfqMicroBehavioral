@@ -1,0 +1,552 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\usepackage{babel}
+\usepackage{babel}
+
+
+
+
+
+  \providecommand{\assumptionname}{Assumption}
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\lemmaname}{Lemma}
+  \providecommand{\propositionname}{Proposition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+
+
+
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding default
+\font_roman "cmr" "default"
+\font_sans "cmss" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 2
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.25in
+\topmargin 1.25in
+\rightmargin 1.25in
+\bottommargin 1.25in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Advanced Microeconomics: 2022
+\end_layout
+
+\begin_layout Author
+Victor H.
+ Aguiar 
+\end_layout
+
+\begin_layout Date
+This version: 2022
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Consider the following collective household model with exponential discounting.
+ Consider a household that consists of two individuals labeled 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ The consumption vector 
+\begin_inset Formula $c_{t}\in\mathbb{R}_{+}^{L}\setminus\{0\}$
+\end_inset
+
+ is partitioned into 
+\begin_inset Formula $c_{t}=(c_{t,I}',c_{t,H}')'$
+\end_inset
+
+ where 
+\begin_inset Formula $c_{t,I}$
+\end_inset
+
+ is the privately consumed consumption vector and 
+\begin_inset Formula $c_{t,H}$
+\end_inset
+
+ is the publicly consumed consumption vector.
+ Similarly prices 
+\begin_inset Formula $p_{t}\in\mathbb{R}_{++}^{L}$
+\end_inset
+
+ can be partitioned into 
+\begin_inset Formula $p_{t}=(p_{t,I}',p_{t,H}')'$
+\end_inset
+
+, where 
+\begin_inset Formula $p_{t,I}$
+\end_inset
+
+ is the price of the private consumption goods and 
+\begin_inset Formula $p_{t,H}$
+\end_inset
+
+ is the price of the public consumption goods .
+ The collective household problem with exponential discounting corresponds
+ to:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+V_{\tau}(c)=\omega_{A}u_{A}(c_{\tau,A},c_{\tau,H})+\omega_{B}u_{B}(c_{\tau,B},c_{\tau,H})+
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+\sum_{j=1}^{T-\tau}[d_{A}^{j}\omega_{A}u_{A}(c_{\tau+j,A},c_{\tau+j,H})+d_{B}^{j}\omega_{B}u_{B}(c_{\tau+j,B},c_{\tau+j,H}),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+where 
+\begin_inset Formula $\omega_{A,}\omega_{B}$
+\end_inset
+
+ are Pareto weights that remain constant across time and represent the bargainin
+g power of each household member.
+ Individual utilities 
+\begin_inset Formula $u_{A},u_{B}$
+\end_inset
+
+ are assumed to be continuous, locally nonsatiated and concave.
+ The individual discount factors are denoted by 
+\begin_inset Formula $d_{A}$
+\end_inset
+
+, 
+\begin_inset Formula $d_{B}\in(0,1]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+The quantities 
+\begin_inset Formula $c_{t,A},c_{t,B}$
+\end_inset
+
+ are assumed to be unobserved, we only observe 
+\begin_inset Formula $c_{t,I}=c_{t,A}+c_{t,B}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+The constraint is:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+p_{\tau,I}'c_{\tau,I}+p_{\tau,H}'c_{\tau,H}+s_{\tau}-y_{\tau}-(1+r_{\tau})s_{\tau-1}=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Under the assumption of full efficiency this joint optimization problem
+ can be decentralized using Lindhal prices.
+ In particular if the consumers are able to purchase the public good such
+ as to eliminate all externalities then there exists prices 
+\begin_inset Formula $p_{t,A}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{t,B}$
+\end_inset
+
+ for the public good such that 
+\begin_inset Formula $p_{t,A}+p_{t,B}=p_{t,H}$
+\end_inset
+
+, such that: 
+\begin_inset Formula $c_{t,A},c_{H}$
+\end_inset
+
+ maximizes:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+V_{\tau}(c)=u_{A}(c_{\tau,A},c_{\tau,H})+
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+\sum_{j=1}^{T-\tau}d_{A}^{j}u_{A}(c_{\tau+j,A},c_{\tau+j,H}),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+subject to:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+p_{\tau,I}'c_{\tau,A,I}+p_{\tau,A}'c_{\tau,H}+s_{\tau}-y_{\tau}-(1+r_{\tau})s_{\tau-1}=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+and 
+\begin_inset Formula $c_{t,B},c_{H}$
+\end_inset
+
+ maximizes the analogous problem:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+V_{\tau}(c)=u_{B}(c_{\tau,B},c_{\tau,H})+
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+\sum_{j=1}^{T-\tau}d_{B}^{j}u_{B}(c_{\tau+j,B},c_{\tau+j,H}),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+subject to:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+p_{\tau,I}'c_{\tau,B,I}+p_{\tau,B}'c_{\tau,H}+s_{\tau}-y_{\tau}-(1+r_{\tau})s_{\tau-1}=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that 
+\begin_inset Formula $c_{t,A}+c_{t,B}=c_{t,I}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{t,A}+p_{t,B}=p_{t,H}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{t}=(c_{t,I}',c_{t,H}')'$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+(a) Show the following Theorem.
+ Let 
+\begin_inset Formula $\rho_{t,h}=p_{t,h}/\prod_{j=1}^{t}(1+r_{j})$
+\end_inset
+
+ for 
+\begin_inset Formula $h\in\{I,H,A,B\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+A dataset 
+\begin_inset Formula $(\rho_{t},c_{t})_{t=0}^{T}$
+\end_inset
+
+ can be generated by a collective household exponential discounting model
+ with full efficiency if and only if there exists 
+\begin_inset Formula $d_{A},d_{B}\in(0,1]$
+\end_inset
+
+ strictly positive vectors 
+\begin_inset Formula $(v_{t,A})_{t=0}^{T}$
+\end_inset
+
+, 
+\begin_inset Formula $(v_{t,B})_{t=0}^{T}$
+\end_inset
+
+ individual private consumption quantities 
+\begin_inset Formula $(c_{t,A},c_{t,B})_{t=0}^{T}$
+\end_inset
+
+ with 
+\begin_inset Formula $c_{t,A}+c_{t,B}=c_{t,I}$
+\end_inset
+
+, and personalized Lindhal prices 
+\begin_inset Formula $(p_{t,A},p_{t,B})_{t=0}^{T}$
+\end_inset
+
+ with 
+\begin_inset Formula $(p_{t,A}+p_{t,B}=p_{t,H})$
+\end_inset
+
+ such that for all 
+\begin_inset Formula $s,t\in\{0,1\cdots,T\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula 
+\[
+v_{t,A}-v_{s,A}\geq d_{A}^{-t}[\rho_{t,I}'[c_{t,A}-c_{s,A}]+\rho_{t,A}'[c_{t,H}-c_{s,H}]]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula 
+\[
+v_{t,B}-v_{s,B}\geq d_{B}^{-t}[\rho_{t,I}'[c_{t,B}-c_{s,B}]+\rho_{t,B}'[c_{t,H}-c_{s,H}]].
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Use the results in Problem 1 to test the collective exponential discounting
+ model in the dataset of Aguiar Kashaev 2029, for 
+\series bold
+couples
+\series default
+.
+ This is the couples household dataset extracted from the Spanish Household
+ dataset.
+ 
+\end_layout
+
+\begin_layout Itemize
+Write the code in Julia, using JuMP and Gurobi.
+ 
+\end_layout
+
+\begin_layout Itemize
+Write a report of your findings (pass rate).
+ Presentation matters and also try to write this the best you can to practice
+ writing, and clarity in expressing ideas.
+ 
+\end_layout
+
+\begin_layout Problem
+Challenge question: Using the 
+\series bold
+singles 
+\series default
+dataset extracted from the Spanish Household dataset.
+ Implement the ELVIS procedure in Aguiar and Kashaev 2020 for the simple
+ case of the law of demand.
+ Namely, with the moments:
+\begin_inset Newline linebreak
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g_{s,t}(x,e)=1(0\geq(\rho_{t}-\rho_{s})'(c_{t}-w_{t}-c_{s}+w_{s}))-1\forall s,t\in\mathcal{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+g_{M}(x,e)=\rho_{t}'w_{t}\forall t\in\mathcal{T},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+with 
+\begin_inset Formula $x=(\rho,c)$
+\end_inset
+
+ and 
+\begin_inset Formula $e=w$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+If you are able to run the replication code in Aguiar Kashaev 2020, this
+ is also a complete answer to this question, but you can implement yourself
+ in Julia, since this is a substantially simplify problem.
+ 
+\end_layout
+
+\end_body
+\end_document
