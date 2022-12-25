@@ -1,0 +1,1179 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Final Exam: Microeconomics USFQ 2022
+\end_layout
+
+\begin_layout Author
+Victor H.
+ Aguiar
+\end_layout
+
+\begin_layout Problem
+Checking SARP.
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $X=\mathbb{R}_{+}^{L}$
+\end_inset
+
+, and consider the finite dataset of consumption bundles and prices 
+\begin_inset Formula $O^{T}=\{x^{t},p^{t}\}_{t\in\{1,\cdots,T\}}$
+\end_inset
+
+ where 
+\begin_inset Formula $x^{t}\in X$
+\end_inset
+
+ and 
+\begin_inset Formula $p^{t}\in\mathbb{R}_{++}^{L}$
+\end_inset
+
+ for all 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+WARP is satisfied if 
+\begin_inset Formula $p^{t}\cdot x^{t}\geq p^{t}\cdot x^{s}$
+\end_inset
+
+ (
+\begin_inset Formula $x^{t}\succeq^{D}x^{s})$
+\end_inset
+
+ implies that we cannot have 
+\begin_inset Formula $p^{s}\cdot x^{s}>p^{s}\cdot x^{t}$
+\end_inset
+
+ (
+\begin_inset Formula $x^{s}\succ^{D}x^{t}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Problem
+GARP is satisfied if 
+\begin_inset Formula $x^{1}\succeq^{D}x^{2}\cdots\succeq^{D}x^{n}$
+\end_inset
+
+ implies that we cannot have 
+\begin_inset Formula $x^{n}\succ^{D}x^{1}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Consider a data set 
+\begin_inset Formula $O^{3}$
+\end_inset
+
+ with prices 
+\begin_inset Formula $p^{1}=(4\quad1\quad5)'$
+\end_inset
+
+, 
+\begin_inset Formula $p^{2}=(5\quad4\quad1)'$
+\end_inset
+
+, 
+\begin_inset Formula $p^{3}=(1\quad5\quad4)'$
+\end_inset
+
+, and bundles 
+\begin_inset Formula $x^{1}=(4\quad1\quad1)',$
+\end_inset
+
+ 
+\begin_inset Formula $x^{2}=(1\quad4\quad1)'$
+\end_inset
+
+, 
+\begin_inset Formula $x^{3}=(1\quad1\quad4)'$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Does 
+\begin_inset Formula $O^{3}$
+\end_inset
+
+ satisfies (i) WARP, (ii) GARP.
+ Show that 
+\begin_inset Formula $O^{3}$
+\end_inset
+
+ cannot be rationalized by a locally-nonsatiated utility function 
+\begin_inset Formula $u:\mathbb{R}_{+}^{3}\to\mathbb{R}$
+\end_inset
+
+, (i.e., 
+\begin_inset Formula $u$
+\end_inset
+
+ rationalizes 
+\begin_inset Formula $O^{3}$
+\end_inset
+
+ if 
+\begin_inset Formula $x^{t}\in argmax_{y}u(y)$
+\end_inset
+
+ subject to 
+\begin_inset Formula $p^{t}\cdot y\leq p^{t}\cdot x^{t}$
+\end_inset
+
+ for all 
+\begin_inset Formula $t$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Consider a preference function 
+\begin_inset Formula $r:\mathbb{R}_{+}^{3}\times\mathbb{R}_{+}^{3}\to\mathbb{R}$
+\end_inset
+
+ such that 
+\begin_inset Formula $r(x,y)\geq(>)0$
+\end_inset
+
+ means that 
+\begin_inset Formula $x$
+\end_inset
+
+ is preferred to 
+\begin_inset Formula $y$
+\end_inset
+
+.
+ We assume that the preference function is skew-symmetric 
+\begin_inset Formula $r(x,y)=-r(y,x)$
+\end_inset
+
+, and strictly increasing in the first entry (i.e., 
+\begin_inset Formula $r(\cdot,y)$
+\end_inset
+
+ is strictly increasing for all 
+\begin_inset Formula $y\in\mathbb{R}_{+}^{3}$
+\end_inset
+
+).
+ We say 
+\begin_inset Formula $O^{T}=\{x^{t},p^{t}\}_{t\in\{1,\cdots,T\}}$
+\end_inset
+
+ is strictly rationalized by a preference function 
+\begin_inset Formula $r$
+\end_inset
+
+ if 
+\begin_inset Formula $r(x^{t},y)>0$
+\end_inset
+
+ for all 
+\begin_inset Formula $y$
+\end_inset
+
+ such that 
+\begin_inset Formula $p^{t}\cdot y\leq p^{t}\cdot y^{t}$
+\end_inset
+
+.
+ Show that any 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ that is rationalized by a skew-symmetric and strictly increasing preference
+ function must satisfy WARP.
+ Consider 
+\begin_inset Formula $O^{3}$
+\end_inset
+
+ above that cannot be rationalized by a utility function but that can be
+ rationalized by a skew-symmetric and strictly increasing (in the first
+ entry) preference function, can the rationalizing preference function be
+ transitive (i.e., 
+\begin_inset Formula $r(x,y)\geq0,r(y,z)\geq0$
+\end_inset
+
+ 
+\begin_inset Formula $\implies r(x,z)\geq0$
+\end_inset
+
+)?
+\end_layout
+
+\begin_layout Enumerate
+Show that GARP is equivalent to WARP when there are two goods L=2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{1}'*x^{1}=22,$
+\end_inset
+
+
+\begin_inset Formula $p^{1}'*x^{2}=13,$
+\end_inset
+
+
+\begin_inset Formula $p^{1}'*x^{3}=25,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{2}'*x^{1}=25,$
+\end_inset
+
+
+\begin_inset Formula $p^{2}'*x^{2}=22,$
+\end_inset
+
+
+\begin_inset Formula $p^{2}'*x^{3}=13,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{3}'*x^{1}=13,$
+\end_inset
+
+
+\begin_inset Formula $p^{3}'*x^{2}=25,$
+\end_inset
+
+
+\begin_inset Formula $p^{3}'*x^{3}=22,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+it is easy to check that if 
+\begin_inset Formula $p^{j}'*x^{i}\leq p^{j}'*x^{j},$
+\end_inset
+
+then 
+\begin_inset Formula $p^{i}'*x^{j}>p^{i}'*x^{i}$
+\end_inset
+
+
+\begin_inset Formula $\forall i,j=1,2,3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore this data set satisfies WARP.
+\end_layout
+
+\begin_layout Standard
+From 1), we can also find that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{1}R^{D}x^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $x^{2}R^{D}x^{3}$
+\end_inset
+
+, 
+\begin_inset Formula $x^{3}R^{D}x^{1}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+so that 
+\begin_inset Formula $x^{1}Rx^{3}$
+\end_inset
+
+, yet 
+\begin_inset Formula $x^{3}Rx^{1}$
+\end_inset
+
+, which violates SARP.
+\end_layout
+
+\begin_layout Standard
+It cannot be rationalized by a LNS utility function, the solution to this
+ is in any textbook of grad level micro.
+ 
+\end_layout
+
+\begin_layout Standard
+2) Assume towards contradiction that we observe a violation of WARP and
+ that the dataset admits a rationalizing preference function that is skew-symmet
+ric and strictly increasing.
+ Then we have 
+\begin_inset Formula $p^{t}\cdot x^{t}\geq p^{t}\cdot x^{s}$
+\end_inset
+
+ (
+\begin_inset Formula $x^{t}\succeq^{D}x^{s})$
+\end_inset
+
+ and 
+\begin_inset Formula $p^{s}\cdot x^{s}>p^{s}\cdot x^{t}$
+\end_inset
+
+ (
+\begin_inset Formula $x^{s}\succ^{D}x^{t}$
+\end_inset
+
+).
+ By rationalizability, 
+\begin_inset Formula $x^{t}\succeq^{D}x^{s}$
+\end_inset
+
+ implies 
+\begin_inset Formula $r(x^{t},x^{s})\geq0$
+\end_inset
+
+, but we also have that 
+\begin_inset Formula $r(x^{s},x^{t})\geq0$
+\end_inset
+
+.
+ There are two cases, either one of the inequalities are strict in which
+ case skew-symmetry is violated, or both inequalities are in fact equalities.
+ In the latter case, 
+\begin_inset Formula $r(x^{t},x^{s})=0$
+\end_inset
+
+ and 
+\begin_inset Formula $r(x^{s},x^{t})=0$
+\end_inset
+
+ cannot happen because 
+\begin_inset Formula $p^{s}\cdot x^{s}>p^{s}\cdot x^{t}$
+\end_inset
+
+ means that there is 
+\begin_inset Formula $x^{k}$
+\end_inset
+
+ close enough to 
+\begin_inset Formula $x^{t}$
+\end_inset
+
+ such that 
+\begin_inset Formula $p^{s}\cdot x^{s}>p^{s}\cdot x^{k}$
+\end_inset
+
+ and such that 
+\begin_inset Formula $r(x^{s},x^{k})<0$
+\end_inset
+
+ which by skew-symmetry means that 
+\begin_inset Formula $r(x^{k},x^{s})>0$
+\end_inset
+
+ contradicting the fact that 
+\begin_inset Formula $x^{s}$
+\end_inset
+
+ is a maximizer of 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+3)
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $L=2$
+\end_inset
+
+, we want to show that if 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ fails GARP then there must be a cycle of length 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Suppose towards contradiction that we have an irreducible cycle of size
+ 
+\begin_inset Formula $3$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{1}\succeq^{R}x^{2}\succeq^{R}x^{3}\succeq^{R}x^{1}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This implies that no observed bundle is larger than another.
+ Indeed if 
+\begin_inset Formula $x^{t}\geq x^{s}$
+\end_inset
+
+(in the vector order).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{t}\succeq^{R}x^{s}$
+\end_inset
+
+ if 
+\begin_inset Formula $x^{t}\geq x^{s}$
+\end_inset
+
+, then assume 
+\begin_inset Formula $x^{2}\geq x^{3}$
+\end_inset
+
+, then 
+\begin_inset Formula $p^{1}x^{1}\ge p^{1}x^{2}\implies p^{1}x^{1}\geq p^{1}x^{3}$
+\end_inset
+
+, so we can form the cycle 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{1}\succeq^{R}x^{3}\succeq^{R}x^{1},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+but that is a contradiction.
+ 
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $L=2$
+\end_inset
+
+, then the observed bundles can be ordered by the quantity of good 1 consumed
+ in each bundle, this is a result from linear algebra.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Price preferences.
+ Consider a consumer that is characterized by the following utility function
+ 
+\begin_inset Formula $V:X\times W\to\mathbb{R}$
+\end_inset
+
+, where the consumer chooses 
+\begin_inset Formula $x^{t}$
+\end_inset
+
+ when prices are 
+\begin_inset Formula $p_{t}$
+\end_inset
+
+, such that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{t}\in argmax_{x\in\mathbb{R}_{+}^{L}}V(x,-p^{t}\cdot x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The utility 
+\begin_inset Formula $V(x,\cdot)$
+\end_inset
+
+ is
+\series bold
+ strictly 
+\series default
+increasing in the second argument.
+ This consumer receives utility from consuming 
+\begin_inset Formula $x$
+\end_inset
+
+, and experiences disutility when spending 
+\begin_inset Formula $p^{t}\cdot x$
+\end_inset
+
+.
+ The optimal bundle purchased by this consumer will balance the trade-offs
+ between these two forces.
+ 
+\end_layout
+
+\begin_layout Standard
+Also define the indirect utility of price by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(p^{t})=max_{x}V(x,-p^{t}\cdot x).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally let's define the price-revealed preference 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p^{s}\succeq_{p}p^{t},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+when
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p^{s}x^{t}\leq p^{t}x^{t}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similarly 
+\begin_inset Formula $p^{s}\succ_{p}p^{t}$
+\end_inset
+
+when 
+\begin_inset Formula $p^{s}x^{t}<p^{t}x^{t}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+a) Show that a data set generated by the consumer above collected in 
+\begin_inset Formula $O^{T}=\{p^{t},x^{t}\}$
+\end_inset
+
+ satisfies the Generalized Axiom of Price Revealed Preference (GAPP).
+\end_layout
+
+\begin_layout Standard
+(GAPP: If 
+\begin_inset Formula $p^{t}\succeq_{p}p^{k}\succeq_{p}\cdots\succeq_{p}p^{s}$
+\end_inset
+
+ then it cannot be that 
+\begin_inset Formula $p^{s}\succ_{p}p^{t}$
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Standard
+b) Show that a data set generated by the special case of the model above
+ with the following utility:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{t}\in argmax_{x\in X}u(x)-p^{t}x,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+satisfies both the Generalized Axiom of Price Revealed Preference and the
+ Generalized Axiom of Revealed Preference (GARP).
+\end_layout
+
+\begin_layout Standard
+(If 
+\begin_inset Formula $p^{t}\cdot x^{t}\geq p^{t}\cdot x^{s}$
+\end_inset
+
+ then we say 
+\begin_inset Formula $x^{t}\succeq^{D}x^{s}$
+\end_inset
+
+ and if 
+\begin_inset Formula $p^{s}\cdot x^{s}>p^{s}\cdot x^{t}$
+\end_inset
+
+ then we say 
+\begin_inset Formula $x^{s}\succ^{D}x^{t}$
+\end_inset
+
+.
+ GARP is satisfied if 
+\begin_inset Formula $x^{1}\succeq^{D}x^{2}\cdots\succeq^{D}x^{n}$
+\end_inset
+
+ then it cannot be that 
+\begin_inset Formula $x^{n}\succ^{D}x^{1}$
+\end_inset
+
+.
+ )
+\end_layout
+
+\begin_layout Standard
+c) Show that a data set generated by the special case of the model introduced
+ in (b), satisfies the (uncompensated law of demand):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(p^{t}-p^{s})'(x^{t}-x^{s})\leq0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $p^{s}\succeq_{p}p^{t}$
+\end_inset
+
+ then 
+\begin_inset Formula $p^{s}\cdot x^{t}\leq p^{t}\cdot x^{t}$
+\end_inset
+
+, this implies that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(x^{t},-p^{s}\cdot x^{t})\geq V(x^{t},-p^{t}\cdot x^{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+by the fact that the function 
+\begin_inset Formula $V$
+\end_inset
+
+ is strictly increasing in the second argument.
+ 
+\end_layout
+
+\begin_layout Standard
+Then notice that since 
+\begin_inset Formula $x^{s}\in argmax_{x}V(x,-p^{s}\cdot x)$
+\end_inset
+
+ then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(x^{s},-p^{s}\cdot x^{s})\geq V(x^{t},-p^{s}\cdot x^{t})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This implies:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(p^{s})=V(x^{s},-p^{s}\cdot x^{s})\geq V(x^{t},-p^{t}\cdot x^{t})=V(p^{t}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In other words, if 
+\begin_inset Formula $p^{s}\succeq_{p}p^{t}$
+\end_inset
+
+ then 
+\begin_inset Formula $V(p^{s})\geq V(p^{t})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Then, if 
+\begin_inset Formula $p^{s}\succeq_{p}p^{t}$
+\end_inset
+
+ it cannot be that 
+\begin_inset Formula $p^{t}\succ_{p}p^{s}$
+\end_inset
+
+ as this will imply that 
+\begin_inset Formula $V(p^{t})>V(p^{s})$
+\end_inset
+
+ and 
+\begin_inset Formula $V(p^{s})\geq V(p^{t})$
+\end_inset
+
+ at the same time.
+ An analogous argument applies for indirect price preference revelation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b) Notice that I can write 
+\begin_inset Formula $x^{t}\in argmax_{x}u(x)-p^{t}x$
+\end_inset
+
+ then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u(x^{t})-p^{t}x^{t}\geq u(y)-p^{t}y$
+\end_inset
+
+ for all 
+\begin_inset Formula $y\in\mathbb{R}_{+}^{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u(x^{t})-p^{t}x^{t}\geq u(x^{s})-p^{t}x^{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which implies 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u(x^{t})-u(x^{s})\geq p^{t}x^{t}-p^{t}x^{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then if
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{t}x^{t}-p^{t}x^{s}\geq0$
+\end_inset
+
+ 
+\begin_inset Formula $\iff$
+\end_inset
+
+ 
+\begin_inset Formula $x^{t}\succeq^{D}x^{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+this implies that 
+\begin_inset Formula $u(x^{t})\geq u(x^{s})$
+\end_inset
+
+ with strict inequality if 
+\begin_inset Formula $p^{t}x^{t}>p^{t}x^{s}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Then if a violation of WARP cannot happen since 
+\begin_inset Formula $x^{t}\succeq^{D}x^{s}$
+\end_inset
+
+ and 
+\begin_inset Formula $x^{s}\succ^{D}x^{t}$
+\end_inset
+
+ would imply that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u(x^{t})\geq u(x^{s})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and 
+\begin_inset Formula 
+\[
+u(x^{s})>u(x^{t}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An analogous argument applies for indirect price preference revelation.
+\end_layout
+
+\begin_layout Standard
+c)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{t}\in argmax_{x}u(x)-p^{t}x$
+\end_inset
+
+ then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u(x^{t})-p^{t}x^{t}\geq u(y)-p^{t}y$
+\end_inset
+
+ for all 
+\begin_inset Formula $y\in\mathbb{R}_{+}^{L}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(i) 
+\begin_inset Formula $u(x^{t})-p^{t}x^{t}\geq u(x^{s})-p^{t}x^{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(ii) 
+\begin_inset Formula $u(x^{s})-p^{s}x^{s}\geq u(x^{t})-p^{s}x^{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\iff$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(i) 
+\begin_inset Formula $u(x^{t})-u(x^{s})\geq p^{t}x^{t}-p^{t}x^{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(ii) 
+\begin_inset Formula $u(x^{s})-u(x^{t})\geq p^{s}x^{s}-p^{s}x^{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then: (i)+(ii)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $0\geq[p^{t}x^{t}-p^{t}x^{s}]+[p^{s}x^{s}-p^{s}x^{t}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $[p^{t}-p^{s}]'[x^{t}-x^{s}]\leq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
